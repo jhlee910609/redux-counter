@@ -18,3 +18,8 @@ export const create = (color) => ({
     type: types.CREATE,
     color
 });
+
+export const setColor = (color) => ({
+    type: types.SET_COLOR,
+    color
+})
